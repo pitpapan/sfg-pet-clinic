@@ -14,7 +14,8 @@
 
   <dependencies>
       <dependency>
-          <artifactId>pet-clinic-data</artifactId>    <!---dependency on data-->
+          <artifactId>pet-clinic-data</artifactId>
+          <!---dependency on data-->
           <groupId>guru.springframework</groupId>
           <version>0.0.1-SNAPSHOT</version>
       </dependency>
