@@ -2,9 +2,11 @@ package guru.springframework.sfgpetclinic.services.map;
 
 import guru.springframework.sfgpetclinic.model.Owner;
 import guru.springframework.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 // hard class OwnerServiceMap extends Abstrac and implement C rudservice
 public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService{
 
